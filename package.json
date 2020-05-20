@@ -1,12 +1,31 @@
 {
-  "name": "fetch-nested-value",
-  "version": "1.0.0",
-  "description": "Fetch nested value within an object, using a dot notation string, eg: \"hello.world\"",
-  "main": "fetchNestedValue.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "picocreator",
-  "license": "MIT",
-  "git": "git@github.com:js-util/fetch-nested-value.git"
+	"name": "@js-util/fetch-nested-value",
+	"version": "1.0.0",
+	"description": "Fetch nested value within an object, using a dot notation string, eg: \"hello.world\"",
+
+	"keywords": [
+		"fetch",
+		"get",
+		"nested",
+		"object",
+		"value"
+	],
+
+	"main": "fetchNestedValue.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+
+	"author": "picocreator",
+	"license": "MIT",
+	"private": false,
+
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/js-util/fetch-nested-value.git"
+	},
+	
+	"engines": {
+		"node": ">=8.0.0"
+	}
 }
