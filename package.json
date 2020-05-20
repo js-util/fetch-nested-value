@@ -1,6 +1,6 @@
 {
 	"name": "@js-util/fetch-nested-value",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"description": "Fetch nested value within an object, using a dot notation string, eg: \"hello.world\"",
 
 	"keywords": [

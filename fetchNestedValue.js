@@ -5,6 +5,11 @@
  * @param {Object} fallback value
  */
 function fetchNestedValue(obj, path, fallback = null) {
+	// Fallback if object is null
+	if( obj == null ) {
+		return fallback;
+	}
+	
 	// Convert path to array
 	if(!Array.isArray(path)) {
 		return fetchNestedValue(obj, path.toString().split("."));
