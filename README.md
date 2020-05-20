@@ -12,7 +12,7 @@ npm install --save @js-util/fetch-nested-value
 
 ```.js
 // Importing the module
-const fetchNestedValue = require("fetch-nested-value");
+const fetchNestedValue = require("@js-util/fetch-nested-value");
 
 // Example object to fetch from
 const obj = {
