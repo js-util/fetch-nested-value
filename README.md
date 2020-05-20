@@ -4,13 +4,13 @@ Fetch nested value within an object, using a dot notation string, eg: "hello.wor
 
 # npm install
 
-```
+```.bash
 npm install --save @js-util/fetch-nested-value
 ```
 
 # Example usage
 
-```
+```.js
 // Importing the module
 const fetchNestedValue = require("fetch-nested-value");
 
